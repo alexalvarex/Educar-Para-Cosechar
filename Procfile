@@ -1,1 +1,1 @@
-web: gunicorn SEducatodos.wsgi --log-file -
+web: gunicorn EPC.wsgi --log-file -
