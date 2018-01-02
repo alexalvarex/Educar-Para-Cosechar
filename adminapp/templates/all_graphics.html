@@ -1,0 +1,31 @@
+{% extends "base_in.html" %}
+
+{% block container %}
+    
+<div class="container">
+
+<br><h1 class="text-center"><span class="badge blue">GRÁFICOS</span></h1>
+	<br>
+	<div class="row">
+		
+			<input type="hidden" value="{{numm}}" id="masculino">
+            <input type="hidden" value="{{nummf}}" id="femenino">
+            <div id="chartContainer" style="height: 500px; width: auto" class="col-md-6"></div>
+	
+		
+				<input type="hidden" value="{{primero}}" id="primero">
+            	<input type="hidden" value="{{segundo}}" id="segundo">
+            	<input type="hidden" value="{{tercero}}" id="tercero">
+            	<input type="hidden" value="{{cuarto}}" id="cuarto">
+            	<input type="hidden" value="{{quinto}}" id="quinto">
+            	<input type="hidden" value="{{sexto}}" id="sexto">
+            	<input type="hidden" value="{{septimo}}" id="septimo">
+            	<input type="hidden" value="{{octavo}}" id="octavo">
+            	<input type="hidden" value="{{noveno}}" id="noveno">
+                <div id="grado" style="height: 500px; width: auto" class="col-md-6"></div>
+		
+	</div>
+	
+</div>
+
+{% endblock container %}
